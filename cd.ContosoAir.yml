@@ -8,7 +8,7 @@ trigger:
 resources:
  pipelines:
   - pipeline: buildContosoAir # identifier for the resource used in pipeline resource variables
-    source: Student1-46385734.ContosoAir # name of the pipeline that produces the artifact
+    source: limkev-tc.ContosoAir # name of the pipeline that produces the artifact
     trigger:
      branches:
       include:
